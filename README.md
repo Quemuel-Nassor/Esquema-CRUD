@@ -5,3 +5,4 @@
   <p>&emsp; Java<p>
   <p>&emsp; Paradigma de orientação a objeto<p>
   <p>&emsp; Banco de dados PostgresSQL<p>
+  <P>&emsp; IDE NetBeans 8.2<p>
