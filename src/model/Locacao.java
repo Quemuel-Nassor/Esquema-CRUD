@@ -13,18 +13,22 @@ public class Locacao {
     private String cliente;
     private double valor_total;
     private String data;
-    private String filme;
+    private String filme1;
+    private String filme2;
+    private String filme3;
 
     public Locacao() {
     }
 
-    public Locacao(int id, String cliente, double valor_total, String data, String filme) {
+    public Locacao(int id, String cliente, double valor_total, String data, String filme1, String filme2, String filme3) {
         
         this.id = id;
         this.setCliente(cliente);
         this.setValor_total(valor_total);
         this.setData(data);
-        this.setFilme(filme);
+        this.setFilme1(filme1);
+        this.setFilme2(filme2);
+        this.setFilme3(filme3);
     }
 
     public int getId() {
@@ -66,12 +70,26 @@ public class Locacao {
         }
     }
 
-    public String getFilme() {
-        return filme;
+    public String getFilme1() {
+        return filme1;
     }
 
-    public void setFilme(String filme) {
-        this.filme = filme;
+    public void setFilme1(String filme) {
+        this.filme1 = filme;
+    }
+    public String getFilme2() {
+        return filme2;
+    }
+
+    public void setFilme2(String filme) {
+        this.filme2 = filme;
+    }
+    public String getFilme3() {
+        return filme2;
+    }
+
+    public void setFilme3(String filme) {
+        this.filme3 = filme;
     }
     
 }
